@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1587842525 source:d:\kuliah\semester 4\std\program\tubes\body.cpp
+	"header.h"
+
+1514140574 source:d:\kuliah\semester 4\std\program\tubes\main.cpp
+	<iostream>
+
+1587843343 d:\kuliah\semester 4\std\program\tubes\header.h
+	<iostream>
+	<cstddef>
+
+1514140574 source:d:\std\tubes\main.cpp
+	<iostream>
+
+1587908299 source:d:\kuliah\semester 4\std\tubes\program\tubes\body.cpp
+	"header.h"
+
+1587890884 d:\kuliah\semester 4\std\tubes\program\tubes\header.h
+	<iostream>
+	<cstddef>
+
+1514140574 source:d:\kuliah\semester 4\std\tubes\program\tubes\main.cpp
+	<iostream>
+
+1587908299 source:d:\kuliah\semester 4\std\tubes\program\tubes new\body.cpp
+	"header.h"
+
+1587890884 d:\kuliah\semester 4\std\tubes\program\tubes new\header.h
+	<iostream>
+	<cstddef>
+
+1514140574 source:d:\kuliah\semester 4\std\tubes\program\tubes new\main.cpp
+	<iostream>
+
+1588243466 source:d:\std\tubes new\body.cpp
+	"header.h"
+
+1588249127 d:\std\tubes new\header.h
+	<iostream>
+	<cstddef>
+
+1514140574 source:d:\std\tubes new\main.cpp
+	<iostream>
+
+1588243466 source:d:\std\tubes new\tubes.cpp
+	"header.h"
+	<stdio.h>
+
