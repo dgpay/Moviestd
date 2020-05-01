@@ -73,7 +73,7 @@ void createListUlasan(list_U &L);
 
 adrM createMovie(info_M X);
 adrR createReviewer(info_R X);
-adrU createUlasan(adrM X, adrR Y,int jumlah);
+adrU createUlasan(adrM X, adrR Y,string jumlah);
 
 void insertFirst_Movie(list_M &L, adrM P);
 void insertFirst_Reviewer(list_R &L, adrR P);
@@ -105,8 +105,38 @@ adrU findelm_UlasanFrom_Movie_Reviewer(list_U L, adrM X, adrR Y);
 
 
 // INI AREA DARI FUNGSIONALITAS TUBESNYA
+//fungsionalitas login ADMIN
 void addmovie (list_M &A);
-void printdatafilm(list_M A);
+void printMovie(list_M L);
+void updateMovie(list_M &L);
 void menuUpdateMovie(list_M &L,adrM P);
+void DeleteMovie(list_M &L);
+void printReviewer(list_R L);
+void DeleteReviewer(list_R &L);
+void ViewDetilUlasanDariFilm(list_M L,list_U L1);
+void ViewDetilUlasanDariReviewer(list_R L,list_U L1);
+
+//fungsionalitas login Reviwerr
+
+void inputUlasan(list_M &L1,list_U &L,adrR R);
+void deleteUlasanFilmTertentu(list_U L,list_M L1,adrR R);
+void viewFilmYgDiulas(list_U L, adrR R);
+void viewFilmBlmDiulas(list_U L,list_M L1, adrR R);
+void UpdateAkunReviewer(list_R &L,adrR P);
+
+//fungsionalitas login non Reviewer
+
+int jumlahReviewer(list_R L);
+void SignUp(list_R &L);
+int cariMaksimum(list_M L);
+void PrintFilmByJumUlasan(list_M L, list_U L1);
+
+//MENU MENU MENU MENU
+
+void MenuLoginAdmin(list_M L,list_R L1,list_U L2);
+adrR cekAkunReviewer(list_R L1,info_R X);
+void MenuLoginReviewer(list_M L,list_R L1,list_U L2);
+void MenuUtama(list_M L,list_R L1,list_U L2);
+
 
 #endif // HEADER_H_INCLUDED

@@ -32,17 +32,23 @@
 1514140574 source:d:\kuliah\semester 4\std\tubes\program\tubes new\main.cpp
 	<iostream>
 
-1588243466 source:d:\std\tubes new\body.cpp
+1588265693 source:d:\std\tubes new\body.cpp
 	"header.h"
 
-1588249127 d:\std\tubes new\header.h
+1588262847 d:\std\tubes new\header.h
 	<iostream>
 	<cstddef>
 
-1514140574 source:d:\std\tubes new\main.cpp
+1588261928 source:d:\std\tubes new\main.cpp
 	<iostream>
+	"header.h"
 
-1588243466 source:d:\std\tubes new\tubes.cpp
+1588264841 source:d:\std\tubes new\tubes.cpp
 	"header.h"
 	<stdio.h>
+
+1588265483 source:d:\std\tubes new\daftarmenu.cpp
+	"header.h"
+	<stdio.h>
+	<conio.h>
 

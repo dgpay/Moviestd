@@ -64,6 +64,7 @@ void insertFirst_Movie(list_M &L, adrM P)
     else
     {
         first(L) = P;
+        last(L) =P;
     }
 }
 
@@ -77,6 +78,7 @@ void insertFirst_Reviewer(list_R &L, adrR P)
     else
     {
         first(L) = P;
+        last(L) =P;
     }
 }
 
@@ -90,6 +92,7 @@ void insertFirst_Ulasan(list_U &L, adrU P)
     else
     {
         first(L) = P;
+        last(L) =P;
     }
 }
 
@@ -123,7 +126,7 @@ void insertLast_Reviewer(list_R &L, adrR P)
 
 void insertLast_Ulasan(list_U &L, adrU P)
 {
-    adrU Q = first(L);
+
 
     if (first(L) != NULL)
     {

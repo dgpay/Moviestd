@@ -33,8 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="body.cpp" />
+		<Unit filename="daftarMenu.cpp" />
 		<Unit filename="header.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="tubes.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
